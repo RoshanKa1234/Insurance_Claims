@@ -194,80 +194,6 @@ F1-Score
 
 Decision Tree 
 
-0.772 
-
-0.69 
-
-0.71 
-
-0.7 
-
-SVC 
-
-0.764 
-
-0.38 
-
-0.50 
-
-0.43 
-
-KNN 
-
-0.764 
-
-0.38 
-
-0.50 
-
-0.43 
-
-Random Forest 
-
-0.724 
-
-0.65 
-
-0.68 
-
-0.66 
-
-Ada Boost 
-
-0.680 
-
-0.63 
-
-0.66 
-
-0.63 
-
-XG Boost 
-
-0.684 
-
-0.63 
-
-0.66 
-
-0.63 
-
-Gradient Boost 
-
-0.248 
-
-0.52 
-
-0.5 
-
-0.21 
-
- 
-
-C:\Users\USER\Desktop\cv fold graph.png
-
- 
-
 The table shows the evaluation metrics of several models for detecting insurance claim fraud using the Kaggle insurance claim dataset. The models' performances are measured in terms of accuracy, precision, recall, and F1-score. 
 
 Accuracy: measures how often the model makes the correct prediction. The model with the highest accuracy is Decision Tree with 0.772. 
@@ -283,8 +209,6 @@ Given that the target variable (insurance claim fraud) is usually rare, it is hi
 Furthermore, the imputation of missing data using mode may introduce some bias into the system. For example, if the imputed values occur frequently in the data, the system may not be able to capture the real patterns in the data, which may reduce the model's accuracy. 
 
 In summary, the Decision Tree model appears to be the best performer in detecting insurance claim fraud. However, the imbalance nature of the target variable may limit the system's overall performance. Additionally, imputing missing data using the mode may also affect the system's accuracy. 
-
-C:\Users\USER\Desktop\cv fold graph.png 
 
  
 Discussion and Conclusion 
